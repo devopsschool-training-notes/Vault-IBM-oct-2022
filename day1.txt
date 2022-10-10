@@ -1,0 +1,99 @@
+Start - 9:30 AM IST
+End: 5:30 PM IST
+-------------------------
+1:00 - 2:00 LUNCH
+
+11: AM 	- 15 mins 
+3:30 PM - 15 mins
+----------------------------
+50% -- Discussion + Demo
+50% -- Lab
+-----------------
+
+
+WARNING! dev mode is enabled! In this mode, Vault runs entirely in-memory
+and starts unsealed with a single unseal key. The root token is already
+authenticated to the CLI, so you can immediately begin using Vault.
+
+You may need to set the following environment variable:
+
+    $ export VAULT_ADDR='http://127.0.0.1:8200'
+
+The unseal key and root token are displayed below in case you want to
+seal/unseal the Vault or re-authenticate.
+
+Unseal Key: v7Qeds3wiQoNrYHXtg15QrxTmDw/q26nqIUvWkSxtcs=
+Root Token: hvs.97sEUuUl2t6a5z1sqoZu791K
+
+Development mode should NOT be used in production installations!
+
+
+
+root_token=hvs.97sEUuUl2t6a5z1sqoZu791K
+
+
+vault login $root_token
+
+root@ip-172-31-26-30:~/workarea# vault login $root_token
+Success! You are now authenticated. The token information displayed below
+is already stored in the token helper. You do NOT need to run "vault login"
+again. Future Vault requests will automatically use this token.
+
+Key                  Value
+---                  -----
+token                hvs.97sEUuUl2t6a5z1sqoZu791K
+token_accessor       Znj5vsFC58DzsWMJ10xdqDHi
+token_duration       ∞
+token_renewable      false
+token_policies       ["root"]
+identity_policies    []
+policies             ["root"]
+
+--------------------------
+
+
+WARNING! dev mode is enabled! In this mode, Vault runs entirely in-memory
+and starts unsealed with a single unseal key. The root token is already
+authenticated to the CLI, so you can immediately begin using Vault.
+
+You may need to set the following environment variable:
+
+PowerShell:
+    $env:VAULT_ADDR="http://127.0.0.1:8200"
+cmd.exe:
+    set VAULT_ADDR=http://127.0.0.1:8200
+
+The unseal key and root token are displayed below in case you want to
+seal/unseal the Vault or re-authenticate.
+
+Unseal Key: wdWDWJWAYqgk6C0vtAGJCdnddGjyJkUJyMJCTQrzY10=
+Root Token: hvs.6FYfExYuSSuESQYk6ku8uZLQ
+
+Development mode should NOT be used in production installations!
+
+====================================================================
+				LINUX				|				WINDOWS
+				------------------------------------------------------
+Downoad/SetPAth
+SERVER								vault server -dev
+CLIENT			vault login -address="http://127.0.0.1:8200" $root_token
+
+
+Gandhalee Shashikant Shirke	43.205.253.142
+Ujjval Wanjari					43.205.194.64
+Archana Swami				13.232.125.179
+Shubham Singh				13.233.88.22
+Vetrivel K					13.232.178.95
+Navuru SrinivasaRao			13.234.186.240
+Vidhya						13.127.74.3
+Krishna Gururajachar			3.110.213.194
+Pradeep SVSM Vakkalanka		52.66.143.98
+Sachin						13.233.149.50
+
+
+
+
+
+
+
+
